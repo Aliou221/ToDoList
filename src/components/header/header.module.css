@@ -1,0 +1,14 @@
+.img{
+   transition: filter .3s ease;
+   animation: spin 3s linear infinite;
+}
+
+@keyframes spin{
+   to{
+      transform: rotate(360deg);
+   }
+}
+
+.img:hover{
+   filter: drop-shadow(2px  3px 20px #057180);
+}
